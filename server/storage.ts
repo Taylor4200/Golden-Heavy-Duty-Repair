@@ -34,12 +34,12 @@ export class PostgresStorage implements IStorage {
   }
 
   async getUser(id: number): Promise<User | undefined> {
-    const result = await this.db.select().from(users).where((users) => users.id.equals(id)).limit(1);
+    const result = await this.db.select().from(users).where(({ id: userId }) => userId.eq(id)).limit(1);
     return result[0];
   }
 
   async getUserByUsername(username: string): Promise<User | undefined> {
-    const result = await this.db.select().from(users).where((users) => users.username.equals(username)).limit(1);
+    const result = await this.db.select().from(users).where(({ username: un }) => un.eq(username)).limit(1);
     return result[0];
   }
 
@@ -55,10 +55,8 @@ export class PostgresStorage implements IStorage {
   }
 
   async getContactFormSubmissions(): Promise<ContactFormSubmission[]> {
-    return await this.db.select().from(contactFormSubmissions).orderBy(
-      (contactFormSubmissions) => contactFormSubmissions.createdAt,
-      "desc"
-    );
+    return await this.db.select().from(contactFormSubmissions)
+      .orderBy(contactFormSubmissions.createdAt, "desc");
   }
 }
 
