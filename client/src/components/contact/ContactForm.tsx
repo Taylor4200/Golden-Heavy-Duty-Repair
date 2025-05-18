@@ -72,8 +72,8 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="lg:w-full bg-gray-50 p-8 rounded-lg shadow-md">
-      <h3 className="text-xl font-bold mb-6">Request Service</h3>
+    <div className="lg:w-full bg-gray-50 p-8 rounded-lg shadow-md border-t-4 border-secondary">
+      <h3 className="text-xl font-bold mb-6 text-primary">Request Service</h3>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <Label htmlFor="name" className="text-gray-700 font-medium mb-2">
@@ -85,7 +85,7 @@ export default function ContactForm() {
             value={formData.name}
             onChange={handleChange}
             placeholder="Enter your full name"
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent"
             required
           />
         </div>
@@ -101,7 +101,7 @@ export default function ContactForm() {
             value={formData.phone}
             onChange={handleChange}
             placeholder="Enter your phone number"
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent"
             required
           />
         </div>
@@ -117,14 +117,14 @@ export default function ContactForm() {
             onChange={handleChange}
             rows={5}
             placeholder="Describe the issue you're experiencing"
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary resize-none"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent resize-none"
             required
           />
         </div>
 
         <Button
           type="submit"
-          className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-3 px-8 rounded-lg transition duration-300"
+          className="w-full bg-secondary hover:bg-secondary/90 text-black font-bold py-3 px-8 rounded-lg transition duration-300"
           disabled={isSubmitting}
         >
           {isSubmitting ? "Submitting..." : "Submit Request"}

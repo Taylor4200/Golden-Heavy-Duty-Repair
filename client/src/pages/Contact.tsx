@@ -6,15 +6,15 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Us - Reliable Truck Repair</title>
-        <meta name="description" content="Contact Reliable Truck Repair for 24/7 emergency service, scheduling repairs, or requesting information. Call our hotline or fill out our contact form." />
+        <title>Contact Us - Golden Heavy Duty Repair</title>
+        <meta name="description" content="Contact Golden Heavy Duty Repair for 24/7 emergency service, scheduling repairs, or requesting information. Call our hotline or fill out our contact form." />
       </Helmet>
       
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-4">Contact Us</h2>
+          <h2 className="text-3xl font-bold text-center mb-4 text-primary">Contact Us</h2>
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-            Need truck repair services? Fill out the form below or call our 24/7 hotline for immediate assistance.
+            Need heavy duty truck repair services? Fill out the form below or call our 24/7 hotline for immediate assistance along the I-70 corridor.
           </p>
           
           <div className="flex flex-col lg:flex-row gap-12">
@@ -25,7 +25,7 @@ export default function Contact() {
             
             {/* Contact Information */}
             <div className="lg:w-1/2">
-              <div className="bg-primary text-white p-8 rounded-lg shadow-md mb-8">
+              <div className="bg-primary text-white p-8 rounded-lg shadow-md mb-8 border-t-4 border-secondary">
                 <h3 className="text-xl font-bold mb-6">Contact Information</h3>
                 
                 <div className="flex items-start mb-4">
@@ -48,7 +48,7 @@ export default function Contact() {
                   <Mail className="h-5 w-5 text-secondary mt-1 mr-4" />
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <p>service@reliabletruckrepair.com</p>
+                    <p>service@goldenheavydutyrepair.com</p>
                   </div>
                 </div>
                 
@@ -62,7 +62,7 @@ export default function Contact() {
               </div>
               
               {/* Map */}
-              <div className="bg-gray-300 h-64 rounded-lg shadow-md flex items-center justify-center">
+              <div className="bg-gray-300 h-64 rounded-lg shadow-md flex items-center justify-center border border-primary">
                 <iframe 
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215373863412!2d-73.9874217!3d40.7520402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzA3LjMiTiA3M8KwNTknMTQuNyJX!5e0!3m2!1sen!2sus!4v1635346821154!5m2!1sen!2sus" 
                   width="100%" 
