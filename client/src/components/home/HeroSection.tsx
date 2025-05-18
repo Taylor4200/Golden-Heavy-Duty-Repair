@@ -14,7 +14,7 @@ export default function HeroSection() {
       <div 
         className="h-[500px] md:h-[600px] bg-cover bg-center"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1570152967085-1fa6478ca7c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&h=1100&q=80')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1565359634363-8227a365915d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&h=1100&q=80')",
           backgroundPosition: "center" 
         }}
       ></div>

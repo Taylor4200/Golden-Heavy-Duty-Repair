@@ -93,7 +93,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-secondary mt-1 mr-3" />
                 <span className="text-gray-200">
-                  12300 W 44th Ave<br />Wheat Ridge, CO 80033
+                  6337 Wolff St<br />Arvada, CO 80003
                 </span>
               </li>
               <li className="flex items-start">

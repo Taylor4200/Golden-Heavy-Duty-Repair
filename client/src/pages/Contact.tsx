@@ -32,7 +32,7 @@ export default function Contact() {
                   <MapPin className="h-5 w-5 text-secondary mt-1 mr-4" />
                   <div>
                     <h4 className="font-medium">Location</h4>
-                    <p>12300 W 44th Ave<br />Wheat Ridge, CO 80033</p>
+                    <p>6337 Wolff St<br />Arvada, CO 80003</p>
                   </div>
                 </div>
                 
@@ -64,7 +64,7 @@ export default function Contact() {
               {/* Map */}
               <div className="bg-gray-300 h-64 rounded-lg shadow-md flex items-center justify-center border border-primary">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.4874631209303!2d-105.13470262412638!3d39.77679179932695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b87189a3cc109!2sGolden%20Heavy%20Duty%20Repair!5e0!3m2!1sen!2sus!4v1715534728066!5m2!1sen!2sus" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.770247252821!2d-105.06692992412664!3d39.76968589940632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c891ad68a9ee8%212x1a2e5858d9c8dfc3!2sGolden%20Heavy%20Duty%20Repair%20-%2024%2F7%20Mobile%20Truck%20And%20Trailer%20Repair!5e0!3m2!1sen!2sus!4v1715535565952!5m2!1sen!2sus" 
                   width="100%" 
                   height="100%" 
                   className="border-0 rounded-lg"
