@@ -20,7 +20,7 @@ export default function CTABanner() {
             size="lg" 
             className="bg-secondary hover:bg-secondary/90 text-black text-lg font-bold"
           >
-            <a href="tel:+18005551234" className="flex items-center gap-2">
+            <a href="tel:+13032334270" className="flex items-center gap-2">
               <Phone className="h-5 w-5" /> Call Our Hotline
             </a>
           </Button>

@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
-import { Truck, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+
+// Import the logo
+import goldLogo from "@/assets/golden-logo.png";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -24,18 +26,12 @@ export default function Header() {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link href="/" className="flex items-center">
-          <div className="relative flex items-center justify-center mr-3">
-            <Truck className="h-8 w-8 text-primary" />
-            <Wrench className="h-4 w-4 text-secondary absolute bottom-0 right-0" />
-          </div>
-          <div className="flex flex-col">
-            <span className="text-primary font-bold text-lg md:text-xl leading-tight">
-              Golden
-            </span>
-            <span className="text-primary font-bold text-lg md:text-xl leading-tight">
-              Heavy Duty Repair
-            </span>
-          </div>
+          <img 
+            src={goldLogo} 
+            alt="Golden Heavy Duty Repair Logo" 
+            className="h-10 md:h-12 mr-3"
+          />
+          <span className="sr-only">Golden Heavy Duty Repair</span>
         </Link>
 
         {/* Desktop Navigation */}

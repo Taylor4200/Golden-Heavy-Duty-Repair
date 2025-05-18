@@ -1,5 +1,8 @@
 import { Link } from "wouter";
-import { Truck, Wrench, MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+
+// Import the logo
+import goldLogo from "@/assets/golden-logo.png";
 
 export default function Footer() {
   return (
@@ -9,18 +12,11 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
-              <div className="relative flex items-center justify-center mr-3">
-                <Truck className="h-8 w-8 text-white" />
-                <Wrench className="h-4 w-4 text-secondary absolute bottom-0 right-0" />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-white font-bold text-lg leading-tight">
-                  Golden
-                </span>
-                <span className="text-white font-bold text-lg leading-tight">
-                  Heavy Duty Repair
-                </span>
-              </div>
+              <img 
+                src={goldLogo} 
+                alt="Golden Heavy Duty Repair Logo" 
+                className="h-14 mr-3" 
+              />
             </div>
             <p className="text-gray-200 mb-4">
               Keeping your trucks on the road with fast, professional repair services. 
@@ -97,12 +93,12 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-secondary mt-1 mr-3" />
                 <span className="text-gray-200">
-                  1234 Truck Service Drive<br />Anytown, USA 12345
+                  12300 W 44th Ave<br />Wheat Ridge, CO 80033
                 </span>
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-secondary mt-1 mr-3" />
-                <span className="text-gray-200">(800) 555-1234</span>
+                <span className="text-gray-200">(303) 233-4270</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-secondary mt-1 mr-3" />
