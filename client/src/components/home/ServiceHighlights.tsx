@@ -6,17 +6,17 @@ export default function ServiceHighlights() {
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">
-          Why Choose Reliable Truck Repair?
+        <h2 className="text-3xl font-bold text-center mb-12 text-primary">
+          Why Choose Golden Heavy Duty Repair?
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
           {/* Emergency Service */}
-          <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition duration-300">
-            <div className="bg-accent rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+          <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition duration-300 border-t-4 border-primary">
+            <div className="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <Truck className="text-white h-8 w-8" />
             </div>
-            <h3 className="text-xl font-semibold text-center mb-3">
+            <h3 className="text-xl font-semibold text-center mb-3 text-primary">
               Emergency Roadside Service
             </h3>
             <p className="text-center text-gray-600">
@@ -25,11 +25,11 @@ export default function ServiceHighlights() {
           </div>
 
           {/* Certified Mechanics */}
-          <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition duration-300">
-            <div className="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-              <Award className="text-white h-8 w-8" />
+          <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition duration-300 border-t-4 border-secondary">
+            <div className="bg-secondary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <Award className="text-black h-8 w-8" />
             </div>
-            <h3 className="text-xl font-semibold text-center mb-3">
+            <h3 className="text-xl font-semibold text-center mb-3 text-primary">
               Certified Mechanics
             </h3>
             <p className="text-center text-gray-600">
@@ -38,11 +38,11 @@ export default function ServiceHighlights() {
           </div>
 
           {/* Fleet Discounts */}
-          <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition duration-300">
-            <div className="bg-secondary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+          <div className="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition duration-300 border-t-4 border-primary">
+            <div className="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <DollarSign className="text-white h-8 w-8" />
             </div>
-            <h3 className="text-xl font-semibold text-center mb-3">
+            <h3 className="text-xl font-semibold text-center mb-3 text-primary">
               Fleet Discounts
             </h3>
             <p className="text-center text-gray-600">
@@ -55,7 +55,7 @@ export default function ServiceHighlights() {
           <Button 
             asChild
             size="lg" 
-            className="bg-primary hover:bg-primary/90"
+            className="bg-secondary hover:bg-secondary/90 text-black font-bold"
           >
             <Link href="/services">View All Services</Link>
           </Button>

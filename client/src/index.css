@@ -13,12 +13,12 @@
   --card-foreground: 20 14.3% 4.1%;
   --border: 20 5.9% 90%;
   --input: 20 5.9% 90%;
-  --primary: 219 64% 33%; /* Dark Blue */
-  --primary-foreground: 211 100% 99%;
-  --secondary: 36 100% 50%; /* Yellow */
+  --primary: 219 64% 33%; /* Blue #0047AB */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 50 100% 50%; /* Gold #FFD700 */
   --secondary-foreground: 24 9.8% 10%;
-  --accent: 0 84.2% 40%; /* Red */
-  --accent-foreground: 60 9.1% 97.8%;
+  --accent: 219 64% 33%; /* Blue #0047AB */
+  --accent-foreground: 0 0% 100%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 60 9.1% 97.8%;
   --ring: 20 14.3% 4.1%;
@@ -36,12 +36,12 @@
   --card-foreground: 0 0% 98%;
   --border: 240 3.7% 15.9%;
   --input: 240 3.7% 15.9%;
-  --primary: 219 64% 33%;
-  --primary-foreground: 211 100% 99%;
-  --secondary: 36 100% 50%;
-  --secondary-foreground: 0 0% 98%;
-  --accent: 0 84.2% 40%;
-  --accent-foreground: 0 0% 98%;
+  --primary: 219 64% 33%; /* Blue #0047AB */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 50 100% 50%; /* Gold #FFD700 */
+  --secondary-foreground: 0 0% 10%;
+  --accent: 219 64% 33%; /* Blue #0047AB */
+  --accent-foreground: 0 0% 100%;
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;
   --ring: 240 4.9% 83.9%;

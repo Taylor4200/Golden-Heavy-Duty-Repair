@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>About Us - Reliable Truck Repair</title>
+        <title>About Us - Golden Heavy Duty Repair</title>
         <meta name="description" content="Family-owned truck repair business with certified mechanics serving truckers 24/7. Over 15 years of experience in the trucking industry." />
       </Helmet>
       
@@ -16,9 +16,9 @@ export default function About() {
           <div className="flex flex-col lg:flex-row items-center gap-12">
             {/* About Content */}
             <div className="lg:w-1/2 order-2 lg:order-1">
-              <h2 className="text-3xl font-bold mb-6">About Reliable Truck Repair</h2>
+              <h2 className="text-3xl font-bold mb-6 text-primary">About Golden Heavy Duty Repair</h2>
               <p className="text-gray-700 mb-4 text-lg">
-                For over 15 years, Reliable Truck Repair has been the trusted partner for truckers and fleet managers throughout the region. As a family-owned business, we understand the importance of personalized service and building lasting relationships with our customers.
+                For over 15 years, Golden Heavy Duty Repair has been the trusted partner for truckers and fleet managers throughout the I-70 corridor. As a family-owned business, we understand the importance of personalized service and building lasting relationships with our customers.
               </p>
               <p className="text-gray-700 mb-4 text-lg">
                 Our team of certified mechanics has extensive experience with all truck makes and models. We're committed to providing high-quality repairs with minimal downtime, whether you need emergency roadside assistance or scheduled maintenance.
@@ -49,7 +49,7 @@ export default function About() {
               <Button 
                 asChild
                 size="lg" 
-                className="bg-primary hover:bg-primary/90"
+                className="bg-secondary hover:bg-secondary/90 text-black font-bold"
               >
                 <Link href="/contact">Contact Us Today</Link>
               </Button>
@@ -59,8 +59,8 @@ export default function About() {
             <div className="lg:w-1/2 order-1 lg:order-2">
               <img 
                 src="https://images.unsplash.com/photo-1606041008023-472dfb5e530f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Reliable Truck Repair Team" 
-                className="rounded-lg shadow-xl w-full h-auto"
+                alt="Golden Heavy Duty Repair Team" 
+                className="rounded-lg shadow-xl w-full h-auto border-4 border-secondary"
               />
             </div>
           </div>
