@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
 // Import the logo
-import goldLogo from "@/assets/golden-logo.png";
+import goldLogo from "@/assets/golden-logo-transparent.png";
 
 const navLinks = [
   { href: "/", label: "Home" },

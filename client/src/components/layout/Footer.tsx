@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 // Import the logo
-import goldLogo from "@/assets/golden-logo.png";
+import goldLogo from "@/assets/golden-logo-transparent.png";
 
 export default function Footer() {
   return (

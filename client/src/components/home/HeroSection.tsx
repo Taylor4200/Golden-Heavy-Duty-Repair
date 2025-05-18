@@ -3,7 +3,7 @@ import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 // Import the logo
-import goldLogo from "@/assets/golden-logo.png";
+import goldLogo from "@/assets/golden-logo-transparent.png";
 
 export default function HeroSection() {
   return (
