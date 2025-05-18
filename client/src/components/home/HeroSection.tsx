@@ -2,20 +2,22 @@ import { Link } from "wouter";
 import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// Import the logo
+// Import the logo and truck image
 import goldLogo from "@/assets/golden-logo-transparent.png";
+import truckImage from "@/assets/golden-truck.png";
 
 export default function HeroSection() {
   return (
     <div className="relative bg-primary">
       {/* Hero Background with Overlay */}
-      <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/70 to-primary/90 z-10"></div>
       
       <div 
         className="h-[500px] md:h-[600px] bg-cover bg-center"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1565359634363-8227a365915d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&h=1100&q=80')",
-          backgroundPosition: "center" 
+          backgroundImage: `url(${truckImage})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover" 
         }}
       ></div>
 
